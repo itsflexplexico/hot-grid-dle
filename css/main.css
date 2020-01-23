@@ -25,18 +25,21 @@ body {
 .img-flex {
   display: block;
   width: 100%;
-  position: relative;
 }
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 figcaption {
-  position: absolute;
-  background-color: rgba(0, 0, 0, .5);
-  left: .5rem;
-  bottom: .5rem;
   max-width: 15em;
+  margin: .5rem;
   padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 6px;
 }
