@@ -1,0 +1,16 @@
+
+.img-flex {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+figure {
+  margin: 0
+}
+
+figcaption {
+  position: absolute;
+  left: .5rem;
+  bottom: .5rem;
+}
